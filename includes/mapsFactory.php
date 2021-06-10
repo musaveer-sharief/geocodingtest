@@ -6,7 +6,6 @@ namespace includes;
  */
 
 class mapsFactory {
-
     /**
      * This method retrieves the configured class objects
      * @param string $type classname

@@ -17,9 +17,9 @@
             
         </div>
         <script type="text/javascript">
-            var map = $('#content_container').mapify('./loadmaps');
+            var map = $('#content_container').mapify('./loadmaps.php');
         </script>
-        <div style="clear: both" ></div>
+        <div style="clear: both"></div>
         <div class="footer"></div>
     </body>
 </html>

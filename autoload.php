@@ -1,7 +1,6 @@
 <?php
 
-function autoload($className)
-{
+function autoload($className){
     $className = ltrim($className, '\\');
     $fileName  = '';
     $namespace = '';

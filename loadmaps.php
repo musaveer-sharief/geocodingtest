@@ -4,9 +4,9 @@
  * Author: Sharief
  */
 require 'autoload.php';
+//require('./includes/maps.php');
 
-$obj = new includes/maps();
-
+$obj = new includes\maps();
 /**
  * This simple condition can expanded based on new requirement
  */
