@@ -1,0 +1,22 @@
+How to RUN
+get the code from GIT hub, copy it into your www folder of wamp or other servers equivalent place
+opening http://localhost/ in your browser can see the output.
+
+How to use
+In the Textbar search for an address like (Serach formatted address)
+and press Enter or Click search
+results will be produced and displayed below the search bar.
+
+How to Run Tests
+1. Assuming phpunit is already installed in the system using composer
+2. Run in command prompt, go to the particular folder and run the below command that does 10 assertions
+phpunit mapsTest.php
+
+
+My Thoughts/ Suggestions while implementing this requirement
+1. Added all the types of maps class in a folder, if new api comes we can add new line in INI file and create required new class alone. (Open closed Principle)
+2. Used the interface of maptype instead of api class. (Dependency Inversion Principle)
+3. Jquery simple plugin created so that it can be used any place, easily removable, Expandable based on new requirements
+4. Since it is public functionality, not used REST API, only simple ajax algorithm used to wrap it within 6 hours.
+5. Factory design pattern mostly used.
+

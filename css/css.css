@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+	background-color:#FFE4C4;
+}
+
+#header_container {
+    height: 40px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    padding-top: 20px;	
+	background-color:#7FFFD4;
+	font-size: 30px;
+	color: blue;
+	font-weight:bold;
+}
+
+.footer {
+    height: 30px;
+}
+
+#content_container {
+    width: 100%;
+	background-color:#DEB887;
+}
+
+.control_container {
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.control_container #search_box {
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+.control_container .button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.data_container {
+    width: fit-content;
+    margin: auto;
+}
+
+.data_container fieldset {
+    width: 300px;
+    float: left;
+}
